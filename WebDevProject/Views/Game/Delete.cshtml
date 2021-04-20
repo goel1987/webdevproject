@@ -3,8 +3,9 @@
     ViewBag.Title = "Delete Game";
 }
 <h2>Confirm Deletion</h2>
-<h3>@Model.Name (@Model.Year)</h3>
+<h4>@Model.Name (@Model.Year)</h4>
 <form asp-action="Delete" method="post">
     <input type="hidden" asp-for="GameId" />
-    <button type="submit" class="btn btn-primary">Delete</button> <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Cancel</a>
+    <a asp-controller="Home" asp-action="ShowGames" class="btn btn-outline-primary">Cancel</a>
+    <button type="submit" class="btn btn-danger">Delete</button>
 </form>

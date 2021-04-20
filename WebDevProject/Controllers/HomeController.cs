@@ -15,9 +15,19 @@ namespace WebDevProject.Controllers
         {
             context = ctx;
         }
+
         public IActionResult Index()
         {
-            var games = context.Games.Include(m => m.Rating).OrderBy(m => m.Name).ToList();
+            return View("Index");
+        }
+
+        public IActionResult About()
+        {
+            return View("About");
+        }
+        public IActionResult ShowGames()
+        {
+            var games = context.Games.Include(g => g.Rating).OrderBy(g => g.Name).ToList();
             return View(games);
         }
 

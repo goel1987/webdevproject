@@ -37,7 +37,7 @@ namespace WebDevProject.Controllers
                 if (game.GameId == 0) context.Games.Add(game);
                 else
                     context.Games.Update(game); context.SaveChanges();
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("ShowGames", "Home");
             }
             else
             {
@@ -55,7 +55,7 @@ namespace WebDevProject.Controllers
         public IActionResult Delete(Game game)
         {
             context.Games.Remove(game); context.SaveChanges();
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("ShowGames", "Home");
         }
     }
 }
