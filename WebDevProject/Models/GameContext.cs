@@ -41,6 +41,27 @@ namespace WebDevProject.Models
                     Name = "Call of Duty: Black Ops 4",
                     Year = 2018,
                     RatingId = "M"
+                },
+                new Game
+                {
+                    GameId = 4,
+                    Name = "NBA 2K21",
+                    Year = 2020,
+                    RatingId = "E"
+                },
+                new Game
+                {
+                    GameId = 5,
+                    Name = "Rocket League",
+                    Year = 2015,
+                    RatingId = "E"
+                },
+                new Game
+                {
+                    GameId = 6,
+                    Name = "Apex Legends",
+                    Year = 2019,
+                    RatingId = "T"
                 }
             );
         }
