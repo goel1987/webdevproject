@@ -62,6 +62,34 @@ namespace WebDevProject.Models
                     Name = "Apex Legends",
                     Year = 2019,
                     RatingId = "T"
+                },
+                new Game 
+                {
+                    GameID = 6 , 
+                    Name = "Grand Theft Auto",
+                    Year = 2013,
+                    RatingId = "M"
+                },
+                new Game
+                {
+                    GameId = 7,
+                    Name = "Goldeneye",
+                    Year = 1997,
+                    RatingId = "E"
+                },
+                new Game
+                {
+                    GameId = 8,
+                    Name = "Tony Hawk Pro Skater",
+                    Year = 2000,
+                    RatingId = "E"
+                },
+                new Game
+                {
+                    GameId = 9,
+                    Name = "Call of Duty",
+                    Year = 2007,
+                    RatingId = "T"
                 }
             );
         }
