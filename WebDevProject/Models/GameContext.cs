@@ -65,28 +65,28 @@ namespace WebDevProject.Models
                 },
                 new Game 
                 {
-                    GameID = 6 , 
+                    GameId = 7 , 
                     Name = "Grand Theft Auto",
                     Year = 2013,
                     RatingId = "M"
                 },
                 new Game
                 {
-                    GameId = 7,
+                    GameId = 8,
                     Name = "Goldeneye",
                     Year = 1997,
                     RatingId = "E"
                 },
                 new Game
                 {
-                    GameId = 8,
+                    GameId = 9,
                     Name = "Tony Hawk Pro Skater",
                     Year = 2000,
                     RatingId = "E"
                 },
                 new Game
                 {
-                    GameId = 9,
+                    GameId = 10,
                     Name = "Call of Duty",
                     Year = 2007,
                     RatingId = "T"
