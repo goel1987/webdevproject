@@ -15,8 +15,6 @@ Jack Barr [jbarr-code](https://github.com/jbarr-code)
 
 Abhishek Goel [goel1987](https://github.com/goel1987)
 
-Juan Lopez Rosado
-
 Hunter Holland [hunteraholland](https://github.com/hunteraholland)
 
 
