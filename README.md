@@ -18,3 +18,6 @@ Abhishek Goel [goel1987](https://github.com/goel1987)
 Juan Lopez Rosado
 
 Hunter Holland [hunteraholland](https://github.com/hunteraholland)
+
+
+https://zoom.us/j/93957518398?pwd=THN0NFptakhUWVJLTitlK3Bsdnk4QT09
